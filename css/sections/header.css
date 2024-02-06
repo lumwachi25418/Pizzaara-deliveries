@@ -1,4 +1,5 @@
-nav {
+
+.nav {
   background-color: #f4f7fb;
   height: 10vh;
 }
@@ -8,43 +9,54 @@ nav {
   align-items: center;
   padding: 2em;
 }
-.nav__center ul{
+.nav__center ul {
+  display: flex;
+  gap: 7em;
+}
+.nav__center ul li {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+.nav__center ul li a {
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+}
+.nav__center ul li a:hover {
+  background-color: #eea534;
+  color: white;
+}
+.nav__right {
+  display: inline-flex;
+  gap: 3em;
+}
+nav__left p {
+  margin-right: 10%;
+}
+.orange {
+  color: orange;
+}
+.hero__container {
+display: flex;
+justify-content: space-around;
+
+}
+.searchbar {
+  border: solid lightgray 1px;
+  width: 20%;
+  display:flex;
+
+}
+.hero__left input {
+  border-style: none;
+  outline: none;
+}
+.card__review__hero__left{
+    display: flex ;
+    justify-content: space-between;
+    
+
+}
+.card{
     display: flex;
-    gap: 7em;
-}
-.nav__center ul li{
-    list-style-type: none;
-    font-size: 1.5rem;
-}
-.nav__center ul li a{
-    padding: 1em;
-    text-decoration: none;
-    color: black;
-
-
-}
-.nav__center ul li a:hover{
-    background-color: #eea534;
-    color: white;
-}
-.nav__right{
-    display: inline-flex;
-    gap: 3em;
-
-}
-nav__left p{
-    margin-right: 10%;
-
-}
-.orange{
-    color: orange;
-}
-.hero__left{
-        width: ;
-        
-}
-.hero__right{
-    float: right;
-    margin-top:5px;
-    margin-right: 50px;
 }
