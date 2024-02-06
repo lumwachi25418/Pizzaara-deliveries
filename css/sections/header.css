@@ -43,8 +43,8 @@ justify-content: space-around;
 }
 .searchbar {
   border: solid lightgray 1px;
-  width: 20%;
-  display:flex;
+  width: 240%;
+  padding: 1.6em;
 
 }
 .hero__left input {
@@ -52,11 +52,20 @@ justify-content: space-around;
   outline: none;
 }
 .card__review__hero__left{
-    display: flex ;
-    justify-content: space-between;
+    display:flex;
+    margin:0 auto;}
     
 
+.menu-section{
+    text-align:center;
+
 }
-.card{
-    display: flex;
+.menu-list ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+.menu-list ul:hover a {
+  background-color: #eea534;
 }
