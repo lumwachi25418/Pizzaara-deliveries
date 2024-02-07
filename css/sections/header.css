@@ -83,3 +83,7 @@ nav__left p {
   display:flex;
   gap:2em;
 }
+.why__us__right img{
+  background-color: black;
+
+}
