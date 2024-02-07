@@ -81,9 +81,19 @@ nav__left p {
 }
 .why__us__container{
   display:flex;
-  gap:2em;
+  gap:2em; 
+
 }
 .why__us__right img{
   background-color: black;
 
+}
+.fresh__pizza__image{
+  display:flex;
+}
+.fresh__pizza__img{
+  gap:10em;
+}
+.help__container{
+  display:flex
 }
