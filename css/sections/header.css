@@ -94,6 +94,16 @@ nav__left p {
 .fresh__pizza__img{
   gap:10em;
 }
-.help__container{
-  display:flex
+.Help__container__contact{
+  text-align: center;
+}
+
+.Help__container{
+  display:flex;
+  justify-content:space-between ;
+}
+.container__footer__social{
+  background-color: black;
+  color: white;
+  padding: 50px;
 }
