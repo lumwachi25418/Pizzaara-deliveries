@@ -32,46 +32,44 @@
 nav__left p {
   margin-right: 10%;
 }
-.orange {
+.orange {text-align: center;
   color: orange;
 }
 .hero__container {
   display: flex;
-  justify-content:around;
+  justify-content: space-between;
+  gap: 40em;
 }
-.searchbar{
+.searchbar {
   border: solid lightgray 1px;
   width: 240%;
   padding: 1.6em;
 }
 
-.searchbar__hero__left{
-  display:flex;
+.searchbar__hero__left {
+  display: flex;
+  justify-content: space-between;
+  padding: 5em;
+}
+.btn_subscribe {
+  color: white;
+  background-color: orange;
 }
 .hero__left input {
   border-style: none;
   outline: none;
-  
 }
-.card__review__hero__left {  display:flex;
-
-  align-items:flex-start;
-}
-.card__review {
+.card__review__hero__left {
+  display: flex;
+  align-items: flex-start;
   background-color: black;
   gap: 4em;
-  
 }
-
-  
-.hero__pizza{
-  display:flex;
-  margin-left: 50px;
-  
+.hero__right {
+  justify-content: space-around;
 }
-.hero__small{
+.hero__small {
   justify-content: space-between;
-
 }
 
 .menu-section {
@@ -85,56 +83,51 @@ nav__left p {
 .menu-list ul:hover a {
   background-color: #eea534;
 }
-.menu__cart__container{
-  display:flex;
-  justify-content:space-around;
+.menu__cart__container {
+  display: flex;
+  justify-content: space-around;
 }
-.add__more{
-  text-align:center;
-  color: #f4f7fb; 
-   padding:40px;
-}
-.why__us__container{
-  display:flex;
-  gap:2em; 
-
-}
-.why__us__right img{
-  background-color: black;
-
-}
-.fresh__pizza__image{
-  display:flex;
-}
-.fresh__pizza__img{
-  gap:10em;
-}
-.Help__container__contact{
+.add__more {
   text-align: center;
+  color: #f4f7fb;
+  padding: 40px;
+}
+.why__us__container {
+  display: flex;
+  gap: 2em;
+}
+.why__us__right img {
+  background-color: black;
+}
+.fresh__pizza__image {
+  display:flex;
+}
+.fresh__pizza__img {
+  gap: 10em;
+}
+.Help__container__contact {
+  text-align: center;
+  
 }
 
-.Help__container__{
+.Help__container__1{
   display:flex;
-  justify-content:space-between ;
+
+  
 }
-.container__footer__social{
+.container__footer__social {
   background-color: black;
   color: white;
   padding: 50px;
-  display:flex;
-  gap:2em;
+  display: flex;
+  gap: 2em;
   justify-content: space-around;
 }
-.container__footer__quicklinks :hover{background-color: #eea534;
-  
+.container__footer__quicklinks :hover {
+  background-color: #eea534;
 }
-.menu__shop{
-  display:flex;
+.menu__shop {
+  display: flex;
   justify-content: space-around;
-  margin:20px; 
-  
+  margin: 20px;
 }
-.menu__shop__row2{
-display:flex;
-justify-content: space-around;
-margin:20px; }
