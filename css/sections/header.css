@@ -98,7 +98,7 @@ nav__left p {
   text-align: center;
 }
 
-.Help__container{
+.Help__container__{
   display:flex;
   justify-content:space-between ;
 }
@@ -106,4 +106,10 @@ nav__left p {
   background-color: black;
   color: white;
   padding: 50px;
+  display:flex;
+  gap:20em;
+  justify-content: space-around;
+}
+.container__footer__quicklinks :hover{background-color: #eea534;
+  
 }
