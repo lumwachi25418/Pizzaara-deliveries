@@ -45,18 +45,33 @@ nav__left p {
   padding: 1.6em;
 }
 
+.searchbar__hero__left{
+  display:flex;
+}
 .hero__left input {
   border-style: none;
   outline: none;
+  
 }
-.card__review__hero__left {
-  display:flex;
+.card__review__hero__left {  display:flex;
+
   align-items:flex-start;
 }
-.hero__right{
-  display:inline-block;
+.card__review {
+  background-color: black;
+  gap: 4em;
+  
+}
 
-  align-items: flex-start;
+  
+.hero__pizza{
+  display:flex;
+  margin-left: 50px;
+  
+}
+.hero__small{
+  justify-content: space-between;
+
 }
 
 .menu-section {
@@ -107,9 +122,19 @@ nav__left p {
   color: white;
   padding: 50px;
   display:flex;
-  gap:20em;
+  gap:2em;
   justify-content: space-around;
 }
 .container__footer__quicklinks :hover{background-color: #eea534;
   
 }
+.menu__shop{
+  display:flex;
+  justify-content: space-around;
+  margin:20px; 
+  
+}
+.menu__shop__row2{
+display:flex;
+justify-content: space-around;
+margin:20px; }
