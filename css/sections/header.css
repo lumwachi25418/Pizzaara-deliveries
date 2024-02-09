@@ -32,88 +32,106 @@
 nav__left p {
   margin-right: 10%;
 }
-.orange {text-align: center;
+.orange {
+  text-align: center;
   color: orange;
 }
 .hero__container {
   display: flex;
-  justify-content: space-between;
-  gap: 40em;
+  justify-content: space-around;
 }
-.searchbar {
-  border: solid lightgray 1px;
-  width: 240%;
-  padding: 1.6em;
+.hero__pizza {
+  margin-left: -50%;
 }
+.hero__small {
+  justify-content: space-around;
+  margin-top: 20%;
+  margin-left: 1-0%;
+}
+/* .input__container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid rgb(191,173,173);
+  width: fit-content;
+  border: none;
+  padding: 2em 2em ;
+  background-color: transparent;
+  display: flex; */
 
-.searchbar__hero__left {
+.search {
   display: flex;
-  justify-content: space-between;
-  padding: 5em;
+  align-items: center;
+  margin: 3rem 0;
+  background-color: #f4f7fb;
+}
+.search input {
+  padding: 2rem 4rem;
+  font-size: 1.5rem;
+  border: none;
+}
+.search button {
+  background-color: black;
+  color: white;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+}
+.btn__content {
+  border: none;
+  padding: 3em 3em;
+  background-color: rgb(40, 37, 37);
+  width: fit-content;
+}
+.btn__content {
+  color: white;
+  font-size: 80px;
 }
 .btn_subscribe {
   color: white;
   background-color: orange;
 }
-.hero__left input {
-  border-style: none;
-  outline: none;
+
+.hero__left {
+  margin-left: 5%;
 }
+.card__review__hero__left img {
+  background-color: black;
+}
+
 .card__review__hero__left {
   display: flex;
   align-items: flex-start;
-  background-color: black;
+  background-color: #f4f7fb;
   gap: 4em;
 }
-.hero__right {
-  justify-content: space-around;
-}
-.hero__small {
-  justify-content: space-between;
+.button__add {
+  background-color: black;
 }
 
-.menu-section {
-  text-align: center;
-}
-.menu-list ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-}
-.menu-list ul:hover a {
-  background-color: #eea534;
-}
-.menu__cart__container {
-  display: flex;
-  justify-content: space-around;
-}
-.add__more {
-  text-align: center;
-  color: #f4f7fb;
-  padding: 40px;
-}
 .why__us__container {
   display: flex;
   gap: 2em;
+  justify-content: space-around;
+}
+.why__us__right {
+  background-color: #f4f7fb;
 }
 .why__us__right img {
   background-color: black;
 }
 .fresh__pizza__image {
-  display:flex;
+  display: flex;
 }
 .fresh__pizza__img {
   gap: 10em;
 }
 .Help__container__contact {
   text-align: center;
-  
+  height: 25vh;
+  justify-content: center;
 }
-
-.Help__container__1{
-  display:flex;
-
-  
+.Help__container__1 {
+  display: flex;
+  justify-content: space-around;
 }
 .container__footer__social {
   background-color: black;
@@ -123,7 +141,7 @@ nav__left p {
   gap: 2em;
   justify-content: space-around;
 }
-.container__footer__quicklinks :hover {
+.container__footer__quicklinks:hover {
   background-color: #eea534;
 }
 .menu__shop {

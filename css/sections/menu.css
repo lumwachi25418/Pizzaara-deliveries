@@ -1,0 +1,41 @@
+.menu-section {
+  text-align: center;
+}
+.menu-list ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.menu-list ul li a:hover {
+  color: #eea534;
+}
+.menu__cart__container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f4f7fb;
+}
+.menu__shop {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.menu-list ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  border-bottom: 3px solid gray;
+  padding-bottom: 1em;
+}
+
+.menu-list ul li a{
+    color: black;
+    
+}
+.menu-list ul li a:hover{
+    
+}
+.add__more {
+    text-align: center;
+    color: #f4f7fb;
+    padding: 40px;
+  }
