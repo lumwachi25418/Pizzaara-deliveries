@@ -1,5 +1,6 @@
 .menu-section {
   text-align: center;
+  margin-top: 5%;
 }
 .menu-list ul {
   display: flex;
@@ -8,11 +9,11 @@
 }
 .menu-list ul li a:hover {
   color: #eea534;
+
 }
 .menu__cart__container {
   display: flex;
   justify-content: space-around;
-  background-color: #f4f7fb;
 }
 .menu__shop {
   display: flex;
@@ -32,10 +33,34 @@
     
 }
 .menu-list ul li a:hover{
+  border-bottom:3px solid #eea534;
+  color: #eea534;
     
 }
 .add__more {
+    text-align:center;
+    color:orange;
+    padding:40px;
+  }
+  .orange{
+    justify-content: space-between;
+  
+  }
+  .menu__cart__right{
+    background-color: #f4f7fb;
+  }
+  .menu__cart__center{
+    background-color: #f4f7fb;
+  }
+  .menu__cart__left{
+    background-color: #f4f7fb;
+  }
+  .menu__shop img{
+    background-color: #f4f7fb;
+
+  }
+  .add{
+    background-color: black;
+    color: white;
     text-align: center;
-    color: #f4f7fb;
-    padding: 40px;
   }

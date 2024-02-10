@@ -46,17 +46,9 @@ nav__left p {
 .hero__small {
   justify-content: space-around;
   margin-top: 20%;
-  margin-left: 1-0%;
+  margin-left: -5%;
 }
-/* .input__container{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border: 1px solid rgb(191,173,173);
-  width: fit-content;
-  border: none;
-  padding: 2em 2em ;
-  background-color: transparent;
-  display: flex; */
+
 
 .search {
   display: flex;
@@ -92,16 +84,31 @@ nav__left p {
 
 .hero__left {
   margin-left: 5%;
+  
 }
 .card__review__hero__left img {
   background-color: black;
+  border-radius: 100%;
 }
 
-.card__review__hero__left {
+.card__review__left{
   display: flex;
-  align-items: flex-start;
+  align-items:flex-start;
   background-color: #f4f7fb;
   gap: 4em;
+  padding: 50px;
+}
+.card__review__center{
+  background-color: #f4f7fb;
+  padding: 50px;
+}
+.card__review__right{
+  background-color: #f4f7fb;
+  padding:50px;
+}
+.card__review__hero__left{
+  display: flex;
+  gap:4em
 }
 .button__add {
   background-color: black;
