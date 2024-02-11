@@ -45,8 +45,9 @@ nav__left p {
 }
 .hero__small {
   justify-content: space-around;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: -5%;
+  display: flex;
 }
 
 
@@ -110,10 +111,6 @@ nav__left p {
   display: flex;
   gap:4em
 }
-.button__add {
-  background-color: black;
-}
-
 .why__us__container {
   display: flex;
   gap: 2em;

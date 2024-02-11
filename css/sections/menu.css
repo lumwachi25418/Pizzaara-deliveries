@@ -37,10 +37,15 @@
   color: #eea534;
     
 }
-.add__more {
+.add__more button {
+  display: flex;
     text-align:center;
-    color:orange;
-    padding:40px;
+    background-color:orange;
+    padding:10px;
+    color: white;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  border-radius:60%;
   }
   .orange{
     justify-content: space-between;
@@ -59,8 +64,4 @@
     background-color: #f4f7fb;
 
   }
-  .add{
-    background-color: black;
-    color: white;
-    text-align: center;
-  }
+  

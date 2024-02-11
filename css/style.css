@@ -27,3 +27,11 @@ a{
       width:100%;
     }
   }
+  img{
+    display:block;
+    max-width:100%;
+  }
+  
+  *{
+    font-size:1.3rem;
+  }
