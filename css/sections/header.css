@@ -153,3 +153,6 @@ nav__left p {
   justify-content: space-around;
   margin: 20px;
 }
+.trend__img{
+  display: flex;
+}
