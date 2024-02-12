@@ -47,7 +47,7 @@
   border-radius:20%;
   margin-top: 5%;
   margin-bottom: 5%;
-  flex-wrap: wrap;
+  margin:0 auto;
   }
   .orange{
     justify-content: space-between;
