@@ -13,7 +13,8 @@
 }
 .menu__cart__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-direction:row;
 }
 .menu__shop {
   display: flex;
@@ -27,15 +28,22 @@
   border-bottom: 3px solid gray;
   padding-bottom: 1em;
 }
+.container__footer__quicklinks li :hover{
+  background-color:#eea534
+}
 
 .menu-list ul li a{
     color: black;
     
 }
-.menu-list ul li a:hover{
-  border-bottom:3px solid #eea534;
-  color: #eea534;
+/*  */
+/* .menu-list ul li a:hover{ */
+
     
+/* } */
+.active{
+    border-bottom:3px solid #eea534;
+  color: #eea534;
 }
 .add__more button {
   display: flex;
@@ -44,7 +52,7 @@
     color: white;
   padding: 20px;
   font-size: 1.2rem;
-  border-radius:20%;
+  border-radius:10%;
   margin-top: 5%;
   margin-bottom: 5%;
   margin:0 auto;
@@ -58,12 +66,57 @@
   }
   .menu__cart__center{
     background-color: #f4f7fb;
+    justify-content: center;
   }
-  .menu__cart__left{
+  .menu__cart__container{
     background-color: #f4f7fb;
+    display:flex;
+  }
+  .addcart{
+    justify-content: center;
   }
   .menu__shop img{
     background-color: #f4f7fb;
 
   }
+.cartcounter{
+  border-radius: 3em;
+  background-color: #eea534;
+  margin-left:-1em;
+}
+.cartSection-container{
+  background-color: green;
+ /* min-height: 10vh;
+  min-width: 10vw;  */
+  position: absolute;
+  top: 10%;
+  right: 5px;
+  margin-top: 10px;
+  display: flex;
   
+}
+.cart_items{
+  position:relative;
+
+  
+}
+.show-cart{
+ width:600px;
+ height: 50vh;
+ display: flex;
+ position:absolute;
+}
+.button{
+  display: flex;
+}
+.cart{
+  background-color: black;
+  color:white;
+  padding:10px;
+
+}
+.cartshop{
+  background-color: white;
+  color:white
+}
+

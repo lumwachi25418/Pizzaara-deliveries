@@ -1,0 +1,35 @@
+.container__footer__quicklinks li:hover {
+    background-color: #eea534;
+    gap:20px
+  }
+  .container__footer__quicklinks{
+    display:flex;
+    
+    gap:2em;
+    flex-direction: column;
+  }
+  .footerlink{
+    gap:2em;
+display:flex;
+flex-direction: column;
+  }
+  .trend{
+    display:flex;
+    flex-direction: column;
+    gap:3em;
+    
+  }
+  .trend_img{
+    margin-top: 20px;
+    
+  }
+  .container__newsletter{
+    display:flex;
+    flex-direction:column;
+    gap:3em;
+  }
+  .Newsletter_input{
+padding:4em;
+display:flex;
+
+  }
